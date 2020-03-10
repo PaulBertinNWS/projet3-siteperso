@@ -1,0 +1,154 @@
+/* font-family: 'Raleway', sans-serif;font-family: 'Raleway', sans-serif; */
+
+@import url('https://fonts.googleapis.com/css?family=Montserrat:600|Open+Sans');
+
+:root {
+	--bg-color: #1a1e23;
+}
+
+
+body {
+	margin: 0;
+	padding: 0;
+	font-family: 'Raleway', sans-serif;font-family: 'Raleway', sans-serif;
+}
+
+a, a:hover {
+	text-decoration: none;
+	
+}
+
+.separator {
+    height: 3px;
+    width: 10%;
+    border : none;
+    box-shadow: none;
+    background-color: #0f4c81 ;
+    margin-top: 5%;
+    margin-bottom: 5%;
+
+}
+
+/*header*/
+
+.header {
+    background-color: #1a1e23;
+    height: 10vh;
+	line-height: 10vh;
+	
+
+}
+
+.menu {
+	float: right;
+	font-size: 18px;
+	font-family: 'Montserrat', sans-serif;
+	display: flex;
+	
+}
+
+.menu a {
+    color: #ffffff;
+    margin-right: 20px;
+}
+
+.menu a:hover {
+	color: #59B2FF;
+	text-decoration: none;
+}
+
+.col .btn-custom{
+	background-color: #0f4c81;
+    color: #ffffff;
+}
+
+/*end-header*/
+
+.grid {
+	display: grid;
+	max-width: 80%;
+	max-height: 70vh;
+	margin: auto;
+	align-items: center;
+}
+
+.grid-2 {
+	grid-template-columns: repeat(2, 1fr);
+}
+
+.grid-3 {
+	grid-template-columns: repeat(3, 1fr);
+}
+
+.has-background-dark{
+	background-color: var(--bg-color);
+	color: white;
+	height: 90vh;
+}
+
+#about .grid {
+	height: 90vh;
+
+}
+
+.title {
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+	font-size: 35px;
+}
+
+.text-justify {
+	text-align: justify;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 18px;
+	padding-left: 10%;
+	padding-right: 10%;
+
+}
+
+.text-bold {
+	font-weight: bolder;
+}
+
+.text-center{
+	font-family: 'Montserrat', sans-serif;
+	text-align: center;
+}
+
+.col .btn-custom{
+	margin-top: 3%;
+	background-color: #3498db;
+	color: #ffffff;
+
+}
+
+/*animation*/
+h1 {
+	font-size: 5em;
+	color: white;
+	text-transform: uppercase;
+	text-align: center;
+  }
+  
+  span {
+	border-right: .05em solid;
+	animation: caret 1s steps(1) infinite;
+  }
+  
+  @keyframes caret {
+	50% {
+	  border-color: transparent;
+	}
+  }
+
+
+#img-header{
+	height: 85%;
+	width: 85%;
+
+}
+
+
+@media (min-width: 940px) {
+
+}
