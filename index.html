@@ -8,49 +8,75 @@
     <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet"> 
     <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet"> 
 
+    <link href="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/4.1.1/js/bootstrap.min.js"></script>
+<script src="//cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<link href="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
+<script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+<!------ Include the above in your HEAD tag ---------->
+
+<link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+<link href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,800,900%7cRaleway:300,400,500,600,700" rel="stylesheet">
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Paul Bertin</title>
 </head>
+
+
+
 <body>
 
     <!--header-->
-    <header class="container-fluid header">
-      <div class="container">
-          
-          <nav class="menu">
-              <a href="#about">Paul Bertin</a>
-              <a href="#portfolio">Portfolio</a>
-              <a href="#contact">Contact</a>
-
-          </nav>
+    <header class="cd-header">
+      <div class="header-wrapper">
+        <div class="logo-wrap">
+          <a href="#" class="hover-target"><span>paul</span>bertin</a>
+        </div>
+        <div class="nav-but-wrap">
+          <div class="menu-icon hover-target">
+            <span class="menu-icon__line menu-icon__line-left"></span>
+            <span class="menu-icon__line"></span>
+            <span class="menu-icon__line menu-icon__line-right"></span>
+          </div>					
+        </div>					
+      </div>				
+    </header>
+  
+    <div class="nav">
+      <div class="nav__content">
+        <ul class="nav__list">
+          <li class="nav__list-item active-nav"><a href="#" class="hover-target">home</a></li>
+          <li class="nav__list-item"><a href="#" class="hover-target">studio</a></li>
+          <li class="nav__list-item"><a href="#" class="hover-target">news</a></li>
+          <li class="nav__list-item"><a href="#" class="hover-target">contact</a></li>
+        </ul>
       </div>
+    </div>		
 
-  </header>
+    
+  
   <!--end header-->
 
-    <main>
+<main>
 
-      <section id="about" class="has-background-dark">
+  <section id="about" class="has-background-dark">
 
         <div class="grid grid-2">
 
           <div class="col">
-             <p class="text-center"><img class="logo" src="/img/paul-bertin-logo-3.png" alt="paul-bertin-webdesign"></p>
-             
              <H1>Webdesign et graphisme.</H1>
-
-             <hr class="separator">
-            
-             <p class="text-justify">Je suis étudiant en première année de <strong class="text-bold"> Bachelor Chef de Projet Digital. </strong>
-               Depuis tout petit j’ai toujours mis ma créativité en action, et en particulier dans le dessin. 
-               C’est au fil des années que j’ai découvert toutes les possibilités que le numérique permet.
-               <br>
-               <br>
-               Du papier à la tablette graphique en passant par le graffiti j’ai découvert alors le design graphique qui me passionne aujourd’hui. 
-               Mes inspirations sont diverses et j’aime découvrir de nouvelles choses.
-             </p>
+                  <hr class="separator">
+                  <p class="text-justify">Je suis étudiant en première année de <strong class="text-bold"> Bachelor Chef de Projet Digital. </strong>
+                  Depuis tout petit j’ai toujours mis ma créativité en action, et en particulier dans le dessin. 
+                  C’est au fil des années que j’ai découvert toutes les possibilités que le numérique permet.
+                  <br>
+                  <br>
+                  Du papier à la tablette graphique en passant par le graffiti j’ai découvert alors le design graphique qui me passionne aujourd’hui. 
+                  Mes inspirations sont diverses et j’aime découvrir de nouvelles choses.
+                  </p>
              <p class="text-center">
                <button class="btn btn-custom">Mon portfolio</button>
             </p>
@@ -62,36 +88,136 @@
         
         </div>
 
-      </section>
+  </section>
 
-      <section id="service">
-        
-        <h2>Mes services</h2>
-        <div class="grid grid-3">
-          <h2 class="text-center">Graphisme</h2>
-            <img src="/img/photo1-reca.jpg" alt="">
+  <section class="services pt-100 pb-50" id="services">
+        <div class="container">
+           <div class="row">
+              <div class="col-xl-6 mx-auto text-center">
+                 <div class="section-title mb-100">
+                    <p>Ce que je peux faire</p>
+                    <h4>mes services</h4>
+                 </div>
+              </div>
+           </div>
+           <div class="row">
+              <div class="col-lg-4 col-md-6">
+                 <!-- Single Service -->
+                 <div class="single-service">
+                    <i class="fa fa-laptop"></i>
+                    <h4>Web Design </h4>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry typesetting industry </p>
+                 </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                 <!-- Single Service -->
+                 <div class="single-service">
+                  <i class="fa fa-pencil"></i>
+                  <h4>Graphic Design</h4>
+                  <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry typesetting industry </p>
+               </div>
+              </div>
+              <div class="col-lg-4 col-md-6">
+                 <!-- Single Service -->
+                 <div class="single-service">
+                    <i class="fa fa-mobile"></i>
+                    <h4>Responsive Design</h4>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry typesetting industry </p>
+                 </div>
+              </div>
+              
+
+           </div>
         </div>
+  </section>
 
-        <div class="grid grid-3">
-            <img src="/img/photo2-reca.jpg" alt="">
-          
+    <!--portfolio-->
+  <section class="services pt-100 pb-50">  
+     <div class="container">
+      <div class="row">
+        <div class="col-xl-6 mx-auto text-center">
+           <div class="section-title mb-100">
+              <p>Quelques réalisations</p>
+              <h4>portfolio</h4>
+           </div>
         </div>
+     </div>
+      <div class="row">
+    <div class="main_portfolio_content">
+                      <div class="col-md-3 col-sm-4 col-xs-12 single_portfolio_text">
+                          <img src="/img/mock up affiche.jpg" alt="" />
+                          <div class="portfolio_images_overlay text-center">
+                              <h6>Projet MyMerryBirthday</h6>
+                          </div>
+                      </div>
+                      <div class="col-md-3 col-sm-4 col-xs-12 single_portfolio_text">
+                          <img src="/img/thumbnail_illu peaky 2.jpg" alt="" />
+                          <div class="portfolio_images_overlay text-center">
+                              <h6>Illustration Peaky Blinders</h6>
+                            
+                          </div>								
+                      </div>
+                      <div class="col-md-3 col-sm-4 col-xs-12 single_portfolio_text">
+                          <img src="http://i.imgur.com/8cOtAS9.png" alt="" />
+                          <div class="portfolio_images_overlay text-center">
+                              <h6>Italian Source Mushroom</h6>
+                              <p class="product_price">$12</p>
+                              <a href="#" class="btn btn-primary">Click here</a>
+                          </div>								
+                      </div>
+                      <div class="col-md-3 col-sm-4 col-xs-12 single_portfolio_text">
+                          <img src="http://i.imgur.com/p7OYoBT.png" alt="" />
+                          <div class="portfolio_images_overlay text-center">
+                              <h6>Italian Source Mushroom</h6>
+                             <a href="#" class="btn btn-primary">Click here</a>
+                          </div>								
+                      </div>
+                      <div class="col-md-3 col-sm-4 col-xs-12 single_portfolio_text">
+                          <img src="http://i.imgur.com/uZeTibF.png" alt="" />
+                          <div class="portfolio_images_overlay text-center">
+                              <h6>Italian Source Mushroom</h6>
+                              <p class="product_price">$12</p>
+                              <a href="" class="btn btn-primary">Click here</a>
+                          </div>								
+                      </div>
+                      <div class="col-md-3 col-sm-4 col-xs-12 single_portfolio_text">
+                          <img src="http://i.imgur.com/ymwlLln.png" alt="" />
+                          <div class="portfolio_images_overlay text-center">
+                              <h6>Italian Source Mushroom</h6>
+                              <p class="product_price">$12</p>
+                              <a href="#" class="btn btn-primary">Click here</a>
+                          </div>								
+                      </div>
+                      <div class="col-md-3 col-sm-4 col-xs-12 single_portfolio_text">
+                          <img src="http://i.imgur.com/PUeaHfC.png" alt="" />
+                          <div class="portfolio_images_overlay text-center">
+                              <h6>Italian Source Mushroom</h6>
+                              <p class="product_price">$12</p>
+                              <a href="#" class="btn btn-primary">Click here</a>
+                          </div>								
+                      </div>
+                      <div class="col-md-3 col-sm-4 col-xs-12 single_portfolio_text">
+                          <img src="http://i.imgur.com/A8FRrbS.png" alt="" />
+                          <div class="portfolio_images_overlay text-center">
+                              <h6>Italian Source Mushroom</h6>
+                              <p class="product_price">$12</p>
+                              <a href="#" class="btn btn-primary">Click here</a>
+                          </div>								
+                      </div>
+                  </div>
+                  </div>
+    </div>
+  </section>  
 
-        <div class="grid grid-3">
-            <img src="/img/photo3-reca.jpg" alt="">
-          
-        </div>
-      </section>
 
-      
-      <script type="text/javascript" src="js.js"></script>
-     
-    </main>
+</main>
 
-    <footer>
+<footer>
 
-    </footer>
+</footer>
 
+    <script type="text/javascript" src="typewriteanim.js"></script>
+    <script type="text/javascript" src="nav.js"></script>
 </body>
 </html>
 
