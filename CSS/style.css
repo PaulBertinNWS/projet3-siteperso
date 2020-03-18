@@ -92,7 +92,7 @@ a:hover {
 	position: absolute;
 	display:block;
 	left:10%;
-	top: 4px;
+	top: 20px;
 	cursor: pointer;
 
 	
@@ -239,6 +239,7 @@ a:hover {
 
 .text-bold {
 	font-weight: bolder;
+	color: #3498db;
 }
 
 .text-center{
@@ -327,12 +328,14 @@ h1 {
     margin-bottom:100px;
 }
 .services {
-	background-color: #FBFBFB;
+	background-color: #ffffff;
 }
+
 .single-service {
 	position: relative;
 	text-align: center;
-	margin-bottom: 50px;
+	margin-bottom: 90px;
+	margin-top: 90px;
 	-webkit-transition: .3s;
 	transition: .3s;
 	padding: 30px 20px;
@@ -402,10 +405,20 @@ h1 {
 	padding: 20%;
 }
 
-/*portfolio*/
+.obj{
+	background-color:#1a1e23  ;
+	padding-top: 5%;
+	padding-bottom: -2%;
+	color: #ffffff;
+}
 
 .portfolio {
 	background-color: #1a1e23 ;
-	padding: 0;
-	margin: 0;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	color: #ffffff;
+}
+
+.passion{
+	padding-bottom: 5%;
 }
