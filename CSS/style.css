@@ -77,7 +77,7 @@ a:hover {
 	background-color: #1a1e23;
     position: fixed;
 	width:100%;
-	height: 100px;
+	height: 15vh;
 	top:0;
 	left:0;
 	z-index:100;
@@ -214,12 +214,11 @@ a:hover {
 .has-background-dark{
 	background-color: var(--bg-color);
 	color: white;
-	height: 100vh;
+	height:100vh;
 }
 
-#about .grid {
-	height: 90vh;
-
+#about{
+	padding-top: 8%;
 }
 
 .title {
@@ -231,7 +230,7 @@ a:hover {
 .text-justify {
 	text-align: justify;
 	font-family: 'Montserrat', sans-serif;
-	font-size: 18px;
+	font-size: 16px;
 	padding-left: 10%;
 	padding-right: 10%;
 
@@ -245,6 +244,7 @@ a:hover {
 .text-center{
 	font-family: 'Montserrat', sans-serif;
 	text-align: center;
+
 }
 
 .col .btn-custom{
@@ -256,7 +256,7 @@ a:hover {
 
 /*animation*/
 h1 {
-	font-size: 5em;
+	font-size: 16px;
 	color: white;
 	text-transform: uppercase;
 	text-align: center;
@@ -276,9 +276,15 @@ h1 {
 
 
 #img-header{
-	height: 85%;
-	width: 85%;
+	height: 97%;
+	width: 95%;
+	padding-top:6%;
+	padding-bottom: -6%;
 
+}
+
+.logo-head{
+	width: 60%;
 }
 
 .section-title {
@@ -435,4 +441,9 @@ h1 {
 	padding-left: 3%;
 
 	}
+
+.btn-custom {
+	color: #ffffff;
+	background-color: #3498db;
+}
 	
