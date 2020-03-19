@@ -43,8 +43,8 @@ a, a:hover {
 
 
 #img-header{
-	padding-top: 5%;
-	padding-bottom: 5%;
+	padding-top: 10%;
+	padding-bottom: 7%;
 
 
 	
@@ -195,22 +195,6 @@ a:hover {
 
 /*end-header*/
 
-.grid {
-	display: grid;
-	max-width: 80%;
-	max-height: 90vh;
-	margin: auto;
-	align-items: center;
-}
-
-.grid-2 {
-	grid-template-columns: repeat(2, 1fr);
-}
-
-.grid-3 {
-	grid-template-columns: repeat(3, 1fr);
-}
-
 .has-background-dark{
 	background-color: var(--bg-color);
 	color: white;
@@ -219,6 +203,7 @@ a:hover {
 
 #about{
 	padding-top: 8%;
+	padding-bottom: 20%;
 }
 
 .title {
@@ -255,6 +240,7 @@ a:hover {
 }
 
 /*animation*/
+
 h1 {
 	font-size: 16px;
 	color: white;
@@ -445,5 +431,18 @@ h1 {
 .btn-custom {
 	color: #ffffff;
 	background-color: #3498db;
+}
+
+.footer {
+	background-color: #1a1e23 ;
+	padding-top: 5%;
+	padding-bottom: 5%;
+	color: #ffffff;
+	
+}
+
+.logo-footer{
+	width: 250px;
+	padding-top: 10px;
 }
 	
